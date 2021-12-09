@@ -1,0 +1,14 @@
+{
+  "name": "notes-app-back-end",
+  "version": "1.0.0",
+  "description": "latihan membuat API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Ilham Triza Kurniawan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
