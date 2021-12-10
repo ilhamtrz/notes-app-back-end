@@ -4,11 +4,15 @@
   "description": "latihan membuat API",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
   },
   "author": "Ilham Triza Kurniawan",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
     "nodemon": "^2.0.15"
   }
 }
